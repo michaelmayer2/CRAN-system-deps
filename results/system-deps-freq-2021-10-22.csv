@@ -1,0 +1,1025 @@
+"","SystemRequirements","count"
+"1","'Apache Spark' 2.4.x or 3.x",1
+"2","'Java' version >= 8",1
+"3","'Microsoft Visual Code', 'Rtools' on 'Windows',
+'gdb' or 'lldb' depending on which OS",1
+"4","'Microsoft' 'PowerShell'
+(<https://docs.microsoft.com/en-us/powershell/>), 'Microsoft'
+'Power BI' (<https://powerbi.microsoft.com>)",1
+"5","'Monolix' (<http://monolix.lixoft.com>)",1
+"6","'Mplus' (<http://www.statmodel.com>)",1
+"7","'OpenMPI' (>= 1.5.4) on Solaris, Linux, Mac, and
+FreeBSD. 'MS-MPI' (Microsoft HPC Pack 2012 R2 MS-MPI
+Redistributable Package) on Windows.",1
+"8","'PostgreSQL' with 'PostGIS' extension",1
+"9","'python3' needs to built for the same architecture
+R is built for (32 or 64 bit).",1
+"10","'Simulx' (<http://simulx.lixoft.com/>)",1
+"11","'tapkee' (http://tapkee.lisitsyn.me/)",1
+"12","'TooManyCells'
+(https://github.com/GregorySchwartz/too-many-cells)",1
+"13","'unrar' (Linux/macOS) or '7-Zip' (Windows) to work
+with '.rar' files, GDAL (>= 3.0.2), GEOS (>= 3.8.0), PROJ (>=
+6.2.1)",1
+"14","'unrar' (Linux/macOS) or '7-Zip' (Windows) to work
+with '.rar' files.",1
+"15","""conda (python>=3.6 pytorch torchvision cpuonly
+numpy ( >= 1.14.0) matplotlib pandas -c pytorch);
+python-minimal, pandoc pandoc-citeproc, qpdf; Python (>=3.6),
+pytorch (>=1.4), torchvision, cpuonly, numpy ( >= 1.14.0);
+pandoc (>= 2.0), qpdf ( >= 7.0) on Solaris""",1
+"16","(license-free) MATLAB Runtime (MCR) V 9.6, Java
+(>=8)",1
+"17","(PDF)LaTeX (https://www.latex-project.org/) with
+'pdfpages' package for studentGrowthPlot option in visualizeSGP
+to bind together student growth plots into school catalogs",1
+"18","7-zip command line tool (7z)",1
+"19","7z (Windows only)",1
+"20","A 64-bit POSIX OS such as Linux or OS X with IANA
+time zone data in /usr/share/zoneinfo as well as a
+recent-enough C++11 compiler (such as g++-4.9 or later which is
+preferred, g++-4.8 works too). On Windows the zoneinfo included
+with R is used; and time parsing support is enabled via a
+backport of std::get_time from the LLVM libc++ library.",1
+"21","A C library with the fesetround/fegetround
+functions.",1
+"22","A C++11 compiler; g++ (>= 4.9.*) or newer works.",1
+"23","A C++11 compiler.",1
+"24","A C++11 compiler. Versions 4.8.*, 4.9.* or later of
+GCC will be fine.",2
+"25","A C++14 compiler",1
+"26","A C++17 compiler is currently required",1
+"27","A compiler that conforms to the C++17 standard",1
+"28","A compiler with C++11 support for the thread
+library, Requires Rtools >= 33 (i.e. R >= 3.3.0) to build on
+Windows.",1
+"29","A POSIX system. Currently Linux and OS X are known
+to work.",1
+"30","A POSIX system. Currently Linux and OS X are known
+to work. GNU make.",1
+"31","A system installation of NLopt >= 2.4.0 (with
+headers) will be used if available.",1
+"32","A system with a recent-enough C++11 compiler (such
+as g++-4.8 or later).",2
+"33","A system with zoneinfo data (e.g.
+/usr/share/zoneinfo) as well as a recent-enough C++11 compiler
+(such as g++-4.8 or later). On Windows the zoneinfo included
+with R is used.",1
+"34","A user API key (which one can request from the
+website at <http://www.pushbullet.com>), and one or more
+devices to push messages to which may be any one of an (Android
+or iOS) phone, a (Chrome or Firefox, or Opera or Safari)
+browser or the (Windows or Mac) desktop application provided
+the corresponding Pushbullet 'app' has been installed on any
+one of these.",1
+"35","A valid account MUST be registered with Microsoft's
+Cognitive Services website
+<https://www.microsoft.com/cognitive-services/> in order to
+obtain a (free) API key. Without an API key, this package will
+not work properly.",2
+"36","A valid Bloomberg installation. The API headers and
+dynamic library are downloaded from
+<https://github.com/Rblp/blp> during the build step. See
+<https://bloomberg.github.io/blpapi-docs/cpp/3.8> as well as
+<https://www.bloomberg.com/professional/support/api-library/>
+for API documentation. A compiler recent enough for (at least
+partial) C++11 support is required; g++-4.6.* or later should
+be sufficient and g++-4.9.* or later is preferred.",1
+"37","ACER ConQuest (>=5.12.3)",1
+"38","AD Model Builder <http://admb-project.org>",2
+"39","ADMB version 11 <http://admb-project.org/> for
+use.admb=TRUE; see readme.txt",1
+"40","ADMIXTOOLS suite of command-line utilities for
+population genetics. See
+<https://reich.hms.harvard.edu/software> for the most recent
+installation instructions and further information.",1
+"41","Alfresco Content Repository (Community or
+Enterprise)",1
+"42","An available hiredis library (eg via package
+libhiredis-dev on Debian/Ubuntu, hiredis-devel on
+Fedora/RedHat, or directly from source from
+<https://github.com/redis/hiredis>) is preferred but otherwise
+built on demand.",1
+"43","An ODBC3 driver manager and drivers.",1
+"44","Anaconda (https://www.anaconda.com/download/)",2
+"45","Apache Hadoop >= 2.7.2
+(https://hadoop.apache.org/releases.html#Download); Obsolete:
+Hadoop core >= 0.19.1 and <= 1.0.3 or CDH3
+(https://www.cloudera.com); standard unix tools (e.g., chmod)",1
+"46","Apache Spark 2.0+, Apache Maven 3.5+, Java JDK 8,
+MLeap Runtime 0.10.1+",1
+"47","aria2: apt-get install -y aria2 (deb), gdal-bin:
+apt-get install -y gdal-bin (deb), libgdal-dev: apt-get install
+-y libgdal-dev (deb)",1
+"48","asreml-R 2.x",1
+"49","asreml-R 4.x",1
+"50","At least trial version of LocalSolver to be
+downloaded from http://www.localsolver.com/download.html",1
+"51","AWS Java SDK (see README.md for more details)",1
+"52","awscli: apt install -y awscli (deb), aws-configure:
+aws configure (deb)",1
+"53","bcp Utility",1
+"54","BEAST2 (https://www.beast2.org/)",3
+"55","bedtools",1
+"56","BWidget",4
+"57","By default, git2r uses a system installation of the
+libgit2 headers and library. However, if a system installation
+is not available, builds and uses a bundled version of the
+libgit2 source. zlib headers and library. OpenSSL headers and
+library (non-macOS). LibSSH2 (optional on non-Windows) to
+enable the SSH transport.",1
+"58","c(""C++11"", ""\n fontconfig"", ""\n freetype2""), C++11",1
+"59","C++, arrow package with gzip codec, StarPU",1
+"60","C++11",345
+"61","C++11 and OpenCV 3 or newer: libopencv-dev (Debian,
+Ubuntu) or opencv-devel (Fedora)",1
+"62","C++11 compiler.",1
+"63","C++11 little-endian platform",1
+"64","C++11, A modern compiler (>=gcc-4.9), And latexmk
+is necessary to compile all output documents with the functions
+provided by this package",1
+"65","C++11, A system with zoneinfo data (e.g.
+/usr/share/zoneinfo). On Windows the zoneinfo included with R
+is used.",1
+"66","C++11, cmake (>= 3.10), clang (optional), CUDA
+(optional but recommended)",1
+"67","C++11, cmake, zlib, GNU make, Solaris: g++ is a
+requirement",1
+"68","C++11, fftw3, GNU make",1
+"69","C++11, freetype2, harfbuzz, fribidi",1
+"70","C++11, freetype2, libpng, libtiff, libjpeg",1
+"71","C++11, GCC on Solaris",1
+"72","C++11, GDAL (>= 1.11.4), GEOS (>= 3.4.0), PROJ (>=
+6.3.1)",1
+"73","C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0)",1
+"74","C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>=
+4.8.0)",4
+"75","C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>=
+4.8.0), sqlite3",1
+"76","C++11, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>=
+4.9.3), sqlite3",1
+"77","C++11, GDAL (>= 3.0.2), GEOS (>= 3.8.0), PROJ (>=
+6.2.1)",1
+"78","C++11, gmp",2
+"79","C++11, gmp (>= 4.2.3)",2
+"80","C++11, GNU",1
+"81","C++11, GNU make",10
+"82","C++11, GNU Make",2
+"83","C++11, GNU make, An ODBC3 driver manager and
+drivers.",1
+"84","C++11, GNU make, OpenSSL >= 1.0.2",1
+"85","C++11, GNU make, Windows: cmd.exe and cscript.exe",1
+"86","C++11, gsl",1
+"87","C++11, ICU4C (>= 55, optional)",1
+"88","C++11, libarchive: libarchive-dev (deb),
+libarchive-devel (rpm), libarchive (homebrew), libarchive_dev
+(csw)",1
+"89","C++11, libpng",2
+"90","C++11, LibTorch (https://pytorch.org/)",1
+"91","C++11, pandoc (>= 1.12.3, needed for vignettes)",1
+"92","C++11, pandoc (>=1.12.3, needed for vignettes)",1
+"93","C++11, ZeroMQ (libzmq)",1
+"94","C++11, zlib headers and libraries, GNU make,
+optionally also bzip2 and POSIX-compliant regex functions.",1
+"95","C++11; for AWS S3 support on Linux, libcurl and
+openssl (optional)",1
+"96","C++14",17
+"97","C++14, GNU make",1
+"98","C++17",3
+"99","c++17, GNU make",1
+"100","C++17, libpng, cairo, freetype2, fontconfig",1
+"101","C99",2
+"102","Cairo (>= 1.0.0), ATK (>= 1.10.0), Pango (>=
+1.10.0), GTK+ (>= 2.8.0), GLib (>= 2.8.0)",1
+"103","cairo (>= 1.0)",1
+"104","cairo (>= 1.2 http://www.cairographics.org/)",1
+"105","cairo, freetype2, fontconfig",1
+"106","Cargo (>= 1.51.0) for installation from sources:
+see INSTALL file",1
+"107","Cargo (>= 1.51) for installation from sources: see
+INSTALL file",1
+"108","Cargo (rustc package manager)",2
+"109","cdo",2
+"110","cdo ecFlow",1
+"111","Circos",1
+"112","cmake (only when TileDB source build selected), git
+(only when TileDB source build selected); on x86_64 platforms
+pre-built TileDB Embedded libraries are available at GitHub and
+are used if no TileDB installation is detected, and no other
+option to build or download was specified by the user.",1
+"113","cmake, C++11",1
+"114","cmake, FSL",1
+"115","COIN-OR Clp (>= 1.12.0)",2
+"116","couchDB instance to connect to and work with.",1
+"117","cron",1
+"118","CUDA 8.0 tookit, OpenMP 4.0 capable compiler",1
+"119","cxx11, gdal, libgdal, libproj, netcdf4",1
+"120","dat (>= 13.10.0)",1
+"121","Debian or Ubuntu system with access to Goto Blas,
+Intel MKL, Atlas development build as well as a Nvidia GPU with
+CUDA support",1
+"122","Display resolution >= 1280x800; RAM >= 4GB",1
+"123","docker",1
+"124","docker (>=18.0.0)",2
+"125","Docker (see <https://docs.docker.com/install/>)",1
+"126","Docker and/or Singularity (>=3.0)",1
+"127","Docker, RStudio>=1.2",1
+"128","domino (~>1.7.1)",1
+"129","dot from graphviz",1
+"130","doxygen",1
+"131","Dynare (>= 4.6.1), Octave (=5.2.0)",1
+"132","ELKI (>=0.6.0 if used)",1
+"133","embulk, embulk-output-td",1
+"134","EnergyPlus (>= 8.3, optional)
+(<https://energyplus.net>); udunits2",1
+"135","EViews (>= 8)",1
+"136","ExifTool
+(http://www.sno.phy.queensu.ca/~phil/exiftool/)",1
+"137","exiftool, perl, ffmpeg, imagemagick",1
+"138","FACTS Linux engines (>= 6.2.4), FLFLL (>= 6.2.4),
+Mono (>= 5.20.1.19)",1
+"139","ffmpeg",1
+"140","FFmpeg",1
+"141","ffmpeg (>= 3.2.4)",1
+"142","FFmpeg (>= 3.2); with at least libx264 and lame
+(mp3) drivers. Debian/Ubuntu: libavfilter-dev, Fedora/CentOS:
+ffmpeg-devel (via https://rpmfusion.org), MacOS Homebrew:
+ffmpeg.",1
+"143","FFmpeg (http://ffmpeg.org)",1
+"144","fftw (>= 3.2.2)",1
+"145","fftw (>= 3)",1
+"146","fftw (>=3.2)",1
+"147","FFTW (>=3.3.1); possible package: fftw-devel (rpm),
+fftw-dev (deb) or fftw (brew).",1
+"148","fftw3 (>= 3.1.2)",4
+"149","fftw3 (>= 3.1.2), gsl",1
+"150","fftw3 (>= 3.1.2), gsl (>= 1.15)",1
+"151","fftw3 (>= 3.3.4)",1
+"152","fftw3 (>= 3.3)",1
+"153","fftw3 (>=3.3.4), C++11",1
+"154","fftw3 (libfftw3-dev (deb), or fftw-devel (rpm))",1
+"155","fftw3,libtiff,C++11,X11",1
+"156","For all functions resp. apps: pandoc, LaTeX. For
+the edapy() function resp. Statsomat/EDAPY app: Python (>=3).",1
+"157","For playing sounds, a command line system tool for
+playing wav-files is required.",1
+"158","For the MERLIN wrapper, MERLIN
+(http://csg.sph.umich.edu/abecasis/Merlin/) must be installed
+and pointed to in the PATH environment variable.",1
+"159","For Windows users, Rtools (see
+https://cran.r-project.org/bin/windows/Rtools/).",2
+"160","FreeType, Xft, or zlib (only needed for platforms
+other than OSX and Windows)",1
+"161","FSL",1
+"162","FSL, Freesurfer
+(https://surfer.nmr.mgh.harvard.edu/)",1
+"163","g++ (>= 4.8)",1
+"164","gcc (>= 4.0)",2
+"165","gcc (>= 4.0), gfortran, clang++",1
+"166","GDAL (>= 2.0.0), GEOS (>= 3.3.0), PROJ.4 (>= 4.8.0)",1
+"167","GDAL (>= 2.0.1)",1
+"168","GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ.4 (>= 4.8.0)",1
+"169","GDAL (>= 2.0.1), PROJ.4 (>= 4.8.0), C++11",1
+"170","GDAL (>= 2.1.2), PROJ (>= 4.9.1), GEOS (>= 3.4.2),
+Cairo, Curl, NetCDF, jq, Protocol Buffers, V8, OpenSSL,
+Libxml2.",1
+"171","GDAL (>= 2.2.3), GEOS (>= 3.6.2), PROJ (>= 4.9.3)",1
+"172","GDAL (>= 2.4.2), GEOS (>= 3.7.0), PROJ (>= 5.2.0),
+pandoc (>=2.7.3)",1
+"173","gdal (optional), geos (optional), proj (optional),
+udunits (optional), gsl (optional), gmp (optional), glu
+(optional), jags (optional), mpfr (optional), openmpi
+(optional)",1
+"174","GDAL binaries",2
+"175","Generally, fastText builds on modern Mac OS and
+Linux distributions. Since it uses some C++11 features, it
+requires a compiler with good C++11 support. These include a
+(g++-4.7.2 or newer) or a (clang-3.3 or newer).",1
+"176","GEOS (>= 3.2.0)",1
+"177","GEOS (>= 3.2.0); for building from source: GEOS
+from http://trac.osgeo.org/geos/; GEOS OSX frameworks built by
+William Kyngesburye at http://www.kyngchaos.com/ may be used
+for source installs on OSX.",1
+"178","GEOS (>= 3.5.0)",1
+"179","GEOS (>= 3.5.0), PROJ (>= 4.8.0), sqlite3",1
+"180","gettext",1
+"181","gfortran (>= 4.6.3)",1
+"182","ghostscript",2
+"183","gipptools dataselect",1
+"184","git",2
+"185","git (optional)",1
+"186","git, svn",1
+"187","GitHub, 'RStudio'",1
+"188","GLPK (>= 4.42)",1
+"189","GLPK (>= 4.52)",1
+"190","GLPK library package (e.g., libglpk-dev on
+Debian/Ubuntu)",2
+"191","GLPK library, including -dev or -devel part",1
+"192","gmake",1
+"193","gmp (>= 4.2.3)",3
+"194","gmp (>= 4.2.3), mpfr (>= 3.0.0)",1
+"195","gmp (>= 4.2.3), mpfr (>= 3.0.0) | file README.md",1
+"196","gmp (>= 4.2.3), mpfr (>= 3.0.0), pdfcrop (part of
+TexLive) is required to rebuild the vignettes.",1
+"197","gmp (>=5.0)",1
+"198","GMP (GNU MP bignum library from
+<https://gmplib.org/>)",1
+"199","GMP (https://gmplib.org/)",1
+"200","gmp (optional), libxml2 (optional), glpk (optional)",1
+"201","gmt",1
+"202","GMT (5 or 6), Ghostscript (>=9.6)",1
+"203","gnparser (<https://github.com/gnames/gnparser>)",1
+"204","GNU GSL",12
+"205","GNU GSL (>= 1.14)",1
+"206","GNU GSL for the GSL random-number generators",1
+"207","GNU GSL, GNU make, C++11",1
+"208","GNU make",159
+"209","GNU Make",1
+"210","GNU make and Java JDK 1.2 or higher",1
+"211","GNU make, 7zip, unix2dos",1
+"212","GNU make, C++11",11
+"213","GNU Make, C++11",1
+"214","GNU make, C++11, zlib",1
+"215","GNU make, C++14",1
+"216","GNU make, C++14, gmp, mpfr",1
+"217","GNU make, C++17",1
+"218","GNU make, Cargo (>= 1.42.0) [the Rust package
+manager] for installation from sources: see file INSTALL",1
+"219","GNU make, cmake, gmp, mpfr",1
+"220","GNU Make, GCC Compiler Suite (C and Fortran)",1
+"221","GNU make, Gnu Scientific Library",1
+"222","GNU make, Intel TBB, Windows: cmd.exe and
+cscript.exe, Solaris: g++ is required",1
+"223","GNU make, libcurl",1
+"224","GNU make, mpfr (>= 3.0.0)",1
+"225","GNU make, ncurses, pcre (>= 7 < 10), GLib (>=
+2.0.0). On Windows, no prior installations are necessary, as
+pre-built (i.e. cross-compiled) binaries of required libraries
+are downloaded from a GitHub repository
+(<https://github.com/PolMine/libcl>) during installation. On
+macOS, static libraries of Glib are downloaded
+(<https://github.com/PolMine/libglib>) if Glib is not present.",1
+"226","GNU make, pandoc",2
+"227","GNU make, pandoc (>= 1.12.3), pandoc-citeproc",3
+"228","Gnu Scientific Library",1
+"229","GNU Scientific Library",2
+"230","GNU Scientific Library (>= 2.1), HDF5 (>= 1.8.13),
+libgeotiff (>= 1.4.0), szip (>= 2.1), zlib (>= 1.2)",1
+"231","GNU Scientific Library (GSL)",1
+"232","GNU Scientific Library (GSL). Note: users should
+have GSL installed.",1
+"233","Gnu Scientific Library version >= 1.12",2
+"234","Gnu Scientific Library version >= 1.14",1
+"235","Gnu Scientific Library version >= 1.8",1
+"236","GNU Scientific Library version >= 1.8",1
+"237","GNU Scientific Library version >= 1.8, C++11",1
+"238","Gnu Scientific Library version >= 2.1",1
+"239","GNU Scientific Library version >= 2.5",1
+"240","GNU, C++11",1
+"241","GnuPG (https://gnupg.org/)",1
+"242","GPGME: libgpgme-dev / libgpgme11-dev (deb),
+gpgme-devel (rpm) gpgme (brew). On Linux 'haveged' is
+recommended for generating entropy when using the GPG key
+generator.",1
+"243","graphviz",2
+"244","Graphviz (https://www.graphviz.org/), pprof
+(https://github.com/google/pprof)",1
+"245","GRASS (>= 6.3, < 7)",1
+"246","GRASS (>= 7)",1
+"247","grep",1
+"248","grep, git",1
+"249","gretl (>= 1.9.4)",1
+"250","gsl",1
+"251","GSL (>= 2.2)",1
+"252","GSL (>=2.3)",1
+"253","GSL (>=2.4), MPFR (>= 4.0.0), udunits2 (>=2.2.26-3)",1
+"254","gsl (with development libraries libgsl-dev)",1
+"255","HDF5 (>= 1.8.13)",1
+"256","HDFql (>= 2.1.0)",1
+"257","hiredis",1
+"258","Hugo (<https://gohugo.io>) and Pandoc
+(<https://pandoc.org>)",1
+"259","IBM ILOG CPLEX (>= 12.1)",2
+"260","IBM ILOG CPLEX libraries and headers",1
+"261","Image Magick (for reading non PPM format), dcraw
+(for reading RAW images).",1
+"262","ImageJ (>=1.48), ij.jar (see
+http://imagej.nih.gov/ij/), Java (>=1.6.0)",1
+"263","ImageJ (all OS), Xcode (Mac)",1
+"264","ImageMagick",1
+"265","ImageMagick (>= 6.9.5.4)",1
+"266","ImageMagick (http://imagemagick.org) or
+GraphicsMagick (http://www.graphicsmagick.org)",1
+"267","ImageMagick (http://imagemagick.org) or
+GraphicsMagick (http://www.graphicsmagick.org) or LyX
+(http://www.lyx.org) for saveGIF(); (PDF)LaTeX for saveLatex();
+SWF Tools (http://swftools.org) for saveSWF(); FFmpeg
+(http://ffmpeg.org) or avconv (https://libav.org/avconv.html)
+for saveVideo()",1
+"268","ImageMagick, FFmpeg, libav",1
+"269","ImageMagick++: ImageMagick-c++-devel (rpm) or
+libmagick++-dev (deb)",2
+"270","Impala driver to support a 'DBI'-compatible R
+interface",1
+"271","IP2Location Python library
+<https://www.ip2location.com/development-libraries/ip2location/python>",1
+"272","IP2Proxy Python library
+<https://www.ip2location.com/development-libraries/ip2proxy/python>",1
+"273","JAGS",2
+"274","jags (>= 1.0.3)",1
+"275","jags (>= 3.0.0)",1
+"276","JAGS (>= 3.0.0)",2
+"277","JAGS (>= 3.0.0) (see
+http://mcmc-jags.sourceforge.net)",1
+"278","JAGS (>= 3.2.0) (see
+http://mcmc-jags.sourceforge.net)",1
+"279","JAGS (>= 3.3.0)",1
+"280","JAGS (>= 3.4.0) (see
+http://mcmc-jags.sourceforge.net)",3
+"281","JAGS (>= 4.0.0) (see
+http://mcmc-jags.sourceforge.net)",1
+"282","JAGS (>= 4.1)",1
+"283","JAGS (>= 4.3.0)",2
+"284","JAGS (>= 4.3.0)
+(https://mcmc-jags.sourceforge.net/)",1
+"285","JAGS (>= 4.3.0) (http://mcmc-jags.sourceforge.net)",1
+"286","JAGS (>= 4.3.0), GNU make",1
+"287","JAGS (>= 4.3)",2
+"288","JAGS (http://mcmc-jags.sourceforge.net)",9
+"289","JAGS (http://mcmc-jags.sourceforge.net/)",1
+"290","JAGS (http://mcmc-jags.sourceforge.net/) for
+analysis of Bayesian hierarchical models",1
+"291","JAGS >= 4.3.0 (http://mcmc-jags.sourceforge.net)",1
+"292","JAGS >= 4.3.0 (https://mcmc-jags.sourceforge.io/)",1
+"293","JAGS >=4.3.0 <http://mcmc-jags.sourceforge.net/>,
+Java JDK >=1.4 <https://www.java.com/en/download/manual.jsp>",1
+"294","JAGS 4.3.0
+(https://sourceforge.net/projects/mcmc-jags/)",1
+"295","JAGS 4.x.y",2
+"296","JAGS 4.x.y (http://mcmc-jags.sourceforge.net)",2
+"297","JAGS 4.x.y or WinBUGS 1.4",1
+"298","JAGS-4.3.0, C++11",1
+"299","jamovi (>= 1.2.8), C++11",1
+"300","java",2
+"301","Java",4
+"302","Java (>= 1.4), JRI",1
+"303","Java (>= 1.5)",3
+"304","Java (>= 1.5), JRI",3
+"305","java (>= 1.6)",3
+"306","Java (>= 1.6)",2
+"307","Java (>= 1.7)",2
+"308","Java (>= 1.8)",1
+"309","Java (>= 5.0)",14
+"310","Java (>= 5.0); WordNet database files (direct
+download:
+<https://wordnetcode.princeton.edu/3.0/WNdb-3.0.tar.gz>; Debian
+and Fedora package: wordnet)",1
+"311","Java (>= 6.0)",1
+"312","Java (>= 6)",1
+"313","Java (>= 7.0)",8
+"314","Java (>= 7.0); Stanford CoreNLP
+<http://nlp.stanford.edu/ software/corenlp.shtml> (>= 3.5.2)",1
+"315","Java (>= 7)",4
+"316","Java (>= 8, < 16)",1
+"317","Java (>= 8, <= 11)",1
+"318","Java (>= 8, <= 17)",1
+"319","Java (>= 8.0)",2
+"320","Java (>= 8.0), NetLogo (>= 6.0)",1
+"321","Java (>= 8)",13
+"322","Java (>= 8) and maxent.jar >= 3.4.1 to use Maxent",1
+"323","Java (>= 8), zlib headers and library.",1
+"324","Java (>6)",1
+"325","Java 8 or higher",1
+"326","Java JDK (>= 11.0)",1
+"327","Java JDK 1.2 or higher (for JRI/REngine JDK 1.4 or
+higher), GNU make",1
+"328","Java JDK 1.6 or higher",1
+"329","Java JDK 1.7 or higher",1
+"330","Java JDK 1.8 or higher",1
+"331","Java JDK 8 or higher",1
+"332","Java JRE 1.6 or higher ; Xuggle-xuggler-5.4.jar in
+library paths and class paths.",1
+"333","Java JRE 8 or higher",1
+"334","java runtime",1
+"335","Java Runtime Environment",1
+"336","Java Runtime Environment (>= 8)",1
+"337","Java SE 8 or higher",3
+"338","Java version 8 or higher (https://www.java.com/)",3
+"339","Java, C++11",1
+"340","Julia (>= 0.6.0), Convex.jl, SCS.jl, ECOS.jl",1
+"341","Julia (>= 1.0) and Interpretable AI System Image
+(>= 1.0.0)",1
+"342","Julia (>= 1.5), Bigsimr.jl, Distributions.jl",1
+"343","Julia (>= 1.5), DifferentialEquations.jl,
+ModelingToolkit.jl",1
+"344","Julia >= 0.6.0, RCall.jl",1
+"345","Julia >= 1.0",1
+"346","Julia, v 1.0 or later",2
+"347","jupyter, jupyter_kernel_test (Python package for
+testing)",1
+"348","Komodo Edit (http://www.openkomodo.com), SciViews-K
+(http://www.sciviews.org/SciViews-K)",1
+"349","latex",1
+"350","LaTeX packages: adjustbox, array, calc, caption,
+colortbl, fontspec, graphicx, hhline, hyperref, multirow,
+siunitx, tabularx, threeparttable, ulem, wrapfig",1
+"351","LaTeX(texi2dvi) must be present in the system to
+create PDF reports",1
+"352","latexdiff",1
+"353","LattE <https://www.math.ucdavis.edu/~latte/>, 4ti2
+<http://www.4ti2.de/>",1
+"354","ledger (>= 3.1), hledger (>= 1.2), beancount (>=
+2.0)",1
+"355","libarmadillo: apt-get install -y libarmadillo-dev
+(deb)",2
+"356","libarmadillo: apt-get install -y libarmadillo-dev
+(deb), libblas: apt-get install -y libblas-dev (deb),
+liblapack: apt-get install -y liblapack-dev (deb),
+libarpack++2: apt-get install -y libarpack++2-dev (deb),
+gfortran: apt-get install -y gfortran (deb)",2
+"357","libarmadillo: apt-get install -y libarmadillo-dev
+(deb), libblas: apt-get install -y libblas-dev (deb),
+liblapack: apt-get install -y liblapack-dev (deb),
+libarpack++2: apt-get install -y libarpack++2-dev (deb),
+gfortran: apt-get install -y gfortran (deb), libgmp3: apt-get
+install -y libgmp3-dev (deb), libfftw3: apt-get install -y
+libfftw3-dev (deb), libtiff5: apt-get install -y libtiff5-dev
+(deb)",1
+"358","libarmadillo: apt-get install -y libarmadillo-dev
+(deb), libblas: apt-get install -y libblas-dev (deb),
+liblapack: apt-get install -y liblapack-dev (deb),
+libarpack++2: apt-get install -y libarpack++2-dev (deb),
+gfortran: apt-get install -y gfortran (deb), libjpeg-dev:
+apt-get install -y libjpeg-dev (deb), libpng-dev: apt-get
+install -y libpng-dev (deb), libfftw3-dev: apt-get install -y
+libfftw3-dev (deb), libtiff5-dev: apt-get install -y
+libtiff5-dev (deb)",1
+"359","libbi (>= 1.4.2)",1
+"360","LibBi (>= 1.4.2)",1
+"361","libcurl: libcurl-devel (rpm) or
+libcurl4-openssl-dev (deb)",2
+"362","libcurl: libcurl-devel (rpm) or
+libcurl4-openssl-dev (deb).",2
+"363","libfftw3 (>= 3.3.4)",1
+"364","libgit2 (>= 0.26): libgit2-devel (rpm) or
+libgit2-dev (deb)",1
+"365","libhdf5 (>= 1.8.12)",1
+"366","libjpeg",1
+"367","libjpeg, libpng",1
+"368","libjq: jq-devel (rpm) or libjq-dev (deb)",1
+"369","libmariadb-client-dev | libmariadb-client-lgpl-dev
+| libmysqlclient-dev (deb), mariadb-devel (rpm), mariadb |
+mysql-connector-c (brew), mysql56_dev (csw)",1
+"370","libmariadb-client-lgpl-dev or libmariadb-dev or
+libmysqlclient-dev, with libssl-dev (deb),
+mariadb-connector-c-devel or mariadb-devel (rpm),
+mariadb-connector-c or mysql-connector-c (brew)",1
+"371","libpng",1
+"372","libpng, fftw3",1
+"373","libpq >= 9.0: libpq-dev (deb) or postgresql-devel
+(rpm)",2
+"374","libprotobuf and protobuf-compiler",2
+"375","libR",1
+"376","libR, GNU make",1
+"377","LibreOffice (<https://www.libreoffice.org/>)
+required to extract data from .doc files or perform .pptx
+conversion.",1
+"378","LibreOffice, Microsoft Word",1
+"379","librsvg2",1
+"380","LIBSNDFILE",1
+"381","libsodium (>= 1.0.3)",1
+"382","libssh >= 0.6.0 (the original, not libssh2)",2
+"383","libtiff, libjpeg, zlib",1
+"384","libwebp",1
+"385","libxml2 (>= 2.6.3)",1
+"386","libxml2 (>= 2.9.1)",1
+"387","libxml2: libxml2-dev (deb), libxml2-devel (rpm)",2
+"388","libxslt: libxslt1-dev (deb), libxslt-devel (rpm)",1
+"389","LilyPond v2.23.0+ (only needed for rendering sheet
+music or writing MIDI files)",1
+"390","linux (>= 3.0), libapparmor-dev",1
+"391","Linux or MacOS Intel chip tensorflow (1.14.0)",1
+"392","Linux, Mac OSX, and Windows, or 'ZeroMQ' library >=
+4.0.4. Solaris 10 needs 'ZeroMQ' library 4.0.7 and 'OpenCSW'.",1
+"393","little-endian platform",4
+"394","Mac OSX: redland (>= 1.0.14) ; Linux: librdf0 (>=
+1.0.14), librdf0-dev (>= 1.0.14)",1
+"395","Macaulay2 <http://www.math.uiuc.edu/Macaulay2/>",1
+"396","MAGeCK (=0.51, from
+http://sourceforge.net/p/mageck/wiki/Home/), bowtie2
+(http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)",1
+"397","mallinfo, hence Linux, MacOS or Windows",1
+"398","MATLAB",2
+"399","maxent.jar file",1
+"400","Maxima (https://sourceforge.net/projects/maxima/,
+tested with versions >=5.42.1), needs to be on PATH",1
+"401","mdbtools: mdbtools (deb).",1
+"402","MeCab 0.996 (or mecab-ko 0.9.2) or higher, GNU make",1
+"403","memory (>= 4GB) Ubuntu: build-essential,
+libxml2-dev, libssl-dev, libcurl4-openssl-dev Windows: Rtools
+(>= 3.5)",1
+"404","MERLIN
+(http://csg.sph.umich.edu/abecasis/merlin/index.html) for
+multipoint linkage analysis.",1
+"405","MLwiN, (OpenBUGS, WinBUGS optional)",1
+"406","MonetDB, available from http://www.monetdb.org",1
+"407","MongoDB (>= 3.4.0), Python (>= 2.7). Installation
+instructions and links can be found in the README file.",1
+"408","MongoDB, JSON Studio",1
+"409","mono 4.x or higher on OSX / Linux, .NET 4.x or
+higher on Windows, 'msbuild' and 'nuget' available in the path",1
+"410","MOSEK (>= 6) and MOSEK License (>= 6)",1
+"411","MOSEK (http://www.mosek.com) and MOSEK License for
+use of Rmosek",1
+"412","MOSEK (http://www.mosek.com) and MOSEK License for
+use of Rmosek,",1
+"413","MOSEK (http://www.mosek.com) and MOSEK license.",3
+"414","mpost",1
+"415","MRTSwath",2
+"416","MuseScore - https://musescore.org/",1
+"417","ncbi-blast+ (see
+<https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download>)",1
+"418","need the RDRAND instruction on Intel CPU. and C
+compiler must be able to compile a GNU-style in-line assembler.",1
+"419","Needs a running BaseX-instance.",1
+"420","neo4j - http://www.neo4j.com, cypher-shell -
+https://github.com/neo4j/cypher-shell/releases",1
+"421","neo4j (==3 OR ==4) <https://neo4j.com/>",1
+"422","NetCDF (>= 4.1)",1
+"423","netcdf development libraries",1
+"424","netcdf library version 4.1 or later",1
+"425","netcdf udunits-2",1
+"426","NetLogo (>= 5.3.1), Java (JDK 1.8), pandoc,
+OpenSSL, udunits-2, PROJ.4, GEOS, GDAL, libxml2",1
+"427","NetMHC2pan
+(https://services.healthtech.dtu.dk/service.php?NetMHCIIpan-3.2)",1
+"428","Node.js",1
+"429","None, but greater than 12 GB of RAM highly
+recommended.",1
+"430","none, one or more of JAGS (>= 3.0.0), WinBUGS (>=
+1.4), OpenBUGS (>= 3.2.2), Stan",1
+"431","notepad.exe, mark.exe (>= 8.0) (or mark32.exe and
+mark64.exe) and rel_32.exe (see README.txt)",1
+"432","Nvidia's CUDA toolkit (>= release 6.0)",1
+"433","On a Unix-alike, one of the C functions
+mach_absolute_time (macOS), clock_gettime or gethrtime. If none
+of these is found, the obsolescent POSIX function gettimeofday
+will be tried.",1
+"434","Open MPI (>=1.4.3)",1
+"435","OpenBUGS (>= 3.2.2)",1
+"436","OpenBUGS (>= 3.2.2), hence Windows or Linux",1
+"437","OpenBugs for functions bugs() and openbugs() or
+WinBUGS 1.4 for function bugs()",1
+"438","OpenBUGS, JAGS",1
+"439","OpenCL library",1
+"440","OpenCV 3 or newer: libopencv-dev (Debian, Ubuntu)
+or opencv-devel (Fedora)",1
+"441","OpenGL, GLU Library, XQuartz (on OSX), zlib
+(optional), libpng (>=1.2.9, optional), FreeType (optional),
+pandoc (>=1.14, needed for vignettes; if not present, markdown
+package will be used)",1
+"442","OpenMP, C++11",2
+"443","OpenMPI",1
+"444","OpenMPI (>= 1.5.4) on Solaris, Linux, Mac, and
+FreeBSD. MS-MPI (Microsoft HPC Pack 2012) or MPICH2 (>=
+1.4.1p1) on Windows.",1
+"445","OpenMPI (>= 1.5.4) on Solaris, Linux, Mac, and
+FreeBSD. MS-MPI (Microsoft MPI v7.1 (SDK) and Microsoft HPC
+Pack 2012 R2 MS-MPI Redistributable Package) on Windows.",1
+"446","OpenMPI (>= 1.5.4) on Solaris, Linux, Mac, and
+FreeBSD. No MPI library required on Windows yet.",1
+"447","OpenMPI or MPICH2",1
+"448","OpenMPI, gmp, libxml2, python",1
+"449","openssl",1
+"450","OpenSSL >= 1.0.1",2
+"451","OpenSSL library and headers (openssl-dev or
+similar)",1
+"452","OpenSSL, Cyrus SASL (aka libsasl2)",1
+"453","OpenSSL(>= 1.0.1), NVIDIA CUDA GPU with compute
+capability 3.0 or above and NVIDIA CUDA Toolkit 9.0 or above",1
+"454","Optional: libsecret on Linux (libsecret-1-dev on
+Debian/Ubuntu, libsecret-devel on Fedora/CentOS)",1
+"455","Oracle client",1
+"456","Oracle Instant Client or Oracle Database Client",1
+"457","Oracle Java 7",1
+"458","Oracle Java 7,Apache Kafka 2.8.0-0.8.1.1",1
+"459","Package 'bigsnpr' includes a few functions that
+wrap existing software such as 'PLINK'
+<www.cog-genomics.org/plink2>. Functions are provided to
+download these software. Note that these external software
+might not work for some operating systems (e.g. 'PLINK' might
+not work on Solaris).",1
+"460","package manual requires pandoc (>= 1.14)
+http://pandoc.org",1
+"461","Package vignettes based on R Markdown v2 or
+reStructuredText require Pandoc (http://pandoc.org). The
+function rst2pdf() require rst2pdf
+(https://github.com/rst2pdf/rst2pdf).",1
+"462","pandoc",8
+"463","pandoc (> 1.12)",1
+"464","pandoc (>= 1.12.3)",2
+"465","Pandoc (>= 1.12.3)",1
+"466","pandoc (>= 1.12.3) -
+http://johnmacfarlane.net/pandoc",3
+"467","pandoc (>= 1.12.3) - http://pandoc.org",8
+"468","pandoc (>= 1.12.3) - https://pandoc.org",1
+"469","pandoc (>= 1.12.3) for vignettes",1
+"470","pandoc (>= 1.12.3) suggested for using wordreg
+function; LaTeX packages tikz, booktabs, dcolumn, rotating,
+thumbpdf, longtable, paralist for the vignette",1
+"471","pandoc (>= 1.12.3), pandoc-citeproc",4
+"472","Pandoc (>= 1.12.3), web browser",1
+"473","pandoc (>= 1.14) - http://pandoc.org",5
+"474","Pandoc (>= 1.15)",1
+"475","Pandoc (>= 1.17.2)",1
+"476","pandoc (>= 2.0; https://pandoc.org)",1
+"477","pandoc (>= 2.0; https://pandoc.org), git, whoami",1
+"478","pandoc (>= 2.0.6) - http://pandoc.org",1
+"479","pandoc (>= 2.0)",1
+"480","pandoc (>= 2.0) - http://pandoc.org",3
+"481","Pandoc (>= 2.2.3)",1
+"482","pandoc (>= 2.2) - http://pandoc.org",1
+"483","pandoc (>= 2.7.2) - http://pandoc.org",1
+"484","pandoc (>= 2.7) - http://pandoc.org",1
+"485","pandoc (>=1.12.3)",1
+"486","pandoc (>=1.14, needed for the vignette)",1
+"487","pandoc (http://pandoc.org) for building Vignettes
+and output reports as HTML",1
+"488","pandoc (https://johnmacfarlane.net/pandoc) for
+exporting markdown files to other formats.",2
+"489","pandoc (https://pandoc.org/) and phantomjs
+(https://phantomjs.org/)",1
+"490","pandoc (to create a clinical data review report)",1
+"491","pandoc (to export an interactive summary table to a
+file)",1
+"492","pandoc with https support",6
+"493","pandoc, apparmor (optional)",1
+"494","pandoc, C++14",1
+"495","pandoc, GNU make",1
+"496","pandoc, jupyter, jupyter nbconvert (""nbconvert""
+python package), pywin32 (on windows)",1
+"497","pari/gp",1
+"498","PARI/GP >= 2.3.0 [strongly recommended for
+logkda()]",1
+"499","pdfcrop (part of TexLive) is required to rebuild
+the vignettes.",1
+"500","pdflatex",2
+"501","Perl",4
+"502","Perl (>= 2.0.0)",1
+"503","Perl (>= 5.0), Unitex (>= 3.0
+http://www-igm.univ-mlv.fr/~unitex/)",1
+"504","perl (>= 5.10.0)",1
+"505","perl, bedtools (>=2.27.1), bwa",1
+"506","Perl, Getopt::Long",1
+"507","pgf (>= 2.00)",1
+"508","PhantomJS (http://phantomjs.org) for taking
+screenshots",1
+"509","PhantomJS (http://phantomjs.org) for taking
+screenshots, ImageMagick (http://www.imagemagick.org) or
+GraphicsMagick (http://www.graphicsmagick.org) and OptiPNG
+(http://optipng.sourceforge.net) for manipulating images.",1
+"510","PhantomJS (http://phantomjs.org/)",2
+"511","PhantomJS (https://phantomjs.org), pandoc (>=
+1.12.3) - https://pandoc.org.",1
+"512","Phoenix NLME with Phoenix Modeling Language (PML)
+license",1
+"513","Platform LSF, bsub",1
+"514","plink (1.9)",1
+"515","PLINK must be installed",1
+"516","Poppler C++ API: libpoppler-cpp-dev (deb) or
+poppler-cpp-devel (rpm). The unit tests also require the
+'poppler-data' package (rpm/deb)",1
+"517","Poppler Glib interface headers and libraries
+(<http://poppler.freedesktop.org/>) [Debian/Ubuntu:
+libpoppler-glib-dev, Fedora: poppler-glib-devel]",1
+"518","POSIX.1-2001",1
+"519","POSIX.1-2001, AppArmor (optional)",1
+"520","Preferred genomic operations engine: 'BEDTools',
+'BEDOPS' and 'Tabix (>= 1.3)'.",1
+"521","Presentations written in (R)Markdown require Pandoc
+(http://pandoc.org).",1
+"522","procps (linux), ps (macos), wmic (windows)",1
+"523","PROJ (>= 4.4.6)",1
+"524","PROJ (>= 4.8.0, https://proj.org/download.html) and
+GDAL (>= 1.11.4, https://gdal.org/download.html), with versions
+either (A) PROJ < 6 and GDAL < 3 or (B) PROJ >= 6 and GDAL >=
+3. For degraded PROJ >= 6 and GDAL < 3, use the configure
+argument '--with-proj_api=""proj_api.h""'.",1
+"525","PROJ (>= 4.8.0, https://proj.org/download.html) and
+GDAL (>= 1.11.4, https://gdal.org/download.html).",1
+"526","proj 4.4.6 or higher (http://proj.maptools.org/)",1
+"527","ProtoBuf libraries and compiler version 2.2.0 or
+later; version 3.0.0 or later is supported as well. On
+Debian/Ubuntu these can be installed as libprotoc-dev,
+libprotobuf-dev and protobuf-compiler, while on Fedora/CentOS
+protobuf-devel and protobuf-compiler are needed.",1
+"528","PureseqTM
+(https://github.com/PureseqTM/pureseqTM_package)",1
+"529","pylint",1
+"530","python (>= 2.4)",1
+"531","Python (>= 2.4), difflib, fuzzywuzzy ( >=0.15.0 ),
+python-Levenshtein ( >=0.12.0 ). Detailed installation
+instructions for each operating system can be found in the
+README file.",1
+"532","Python (>= 2.6.0), ArcGIS (>= 10.0)",1
+"533","Python (>= 2.7 or >= 3.5) and elex package",1
+"534","Python (>= 2.7 or >= 3.6)",1
+"535","Python (>= 2.7.0)",4
+"536","Python (>= 2.7.0) with header files and shared
+library; TensorFlow (v1.14; https://www.tensorflow.org/);
+TensorFlow Probability (v0.7.0;
+https://www.tensorflow.org/probability/)",1
+"537","Python (>= 2.7.0), TensorFlow
+(https://www.tensorflow.org/)",1
+"538","Python (>= 2.7)",1
+"539","Python (>= 2.7), Keras (>= 2.0), TensorFlow (>=
+1.13)",1
+"540","Python (>= 2.7), python-gdal library (For Windows,
+gdal installed via OSGeo4W <https://trac.osgeo.org/osgeo4w/>
+recommended) clipboard",1
+"541","Python (>= 2.7); keras <https://keras.io/> (>=
+2.0.1)",1
+"542","Python (>= 2.7); keras <https://keras.io/> (>= 2.1)",1
+"543","Python (>= 3.0.0)",1
+"544","Python (>= 3.0.0), Neptune (https://neptune.ai/)",1
+"545","Python (>= 3.0.0), numpy, pandas",1
+"546","Python (>= 3.0.1); bencode-python3 (1.0.2)",1
+"547","Python (>= 3.0), retriever (>= 3.0.0) (version must
+be listed to patch to allow parsing)",1
+"548","python (>= 3.2)",1
+"549","Python (>= 3.5.0), (Python) Altair (>= 4.0.0). To
+use image functions, i.e. suggests: nodejs (> 8), and for
+MacOS: X11",1
+"550","Python (>= 3.6.0)",3
+"551","Python (>= 3.6) with header files and shared
+library; H2O4GPU (https://github.com/h2oai/h2o4gpu)",1
+"552","Python (>= 3.6), rgf_python, scikit-learn (>=
+0.18.0), scipy, numpy. Detailed installation instructions for
+each operating system can be found in the README file.",1
+"553","Python (>= 3.7.0)",1
+"554","Python (>=2.6) in path and NumPy module installed,
+ghostscript (>=9.0)",1
+"555","Python (>=2.7), Libav, ExifTool",1
+"556","Python (>=3.5.2) and the following python module:
+nmrglue.",1
+"557","Python (>=3.6) sreformat patman",1
+"558","python >= 2.6, by default rasciidoc uses a system
+installation of asciidoc. If a system installation of asciidoc
+is not available, it downloads the sources from
+(<http://gitlab.com/asciidoc>). GNU source-highlight is
+recommended.",1
+"559","Python >=3.5, numpy ( >= 1.18.1), imutils ( >=
+0.5.3), scipy ( >= 1.4.1), pandas ( >= 1.0.2), Pillow ( >=
+7.0.0), opencv ( >= 4.1.2)",1
+"560","Python 3 and wxPython 4.0",1
+"561","Python 3.x with following modules: PyGMO, NumPy,
+and cloudpickle",1
+"562","Python and boto3
+(https://aws.amazon.com/sdk-for-python)",1
+"563","Python and TensorFlow are needed for Bayesian
+inference computations; Python (>= 2.7.0) with header files and
+shared library; TensorFlow (= v1.14;
+https://www.tensorflow.org/); TensorFlow Probability (= v0.7.0;
+https://www.tensorflow.org/probability/)",1
+"564","Python>=3.6, pdfminer.six>=20200402, pandas",1
+"565","python3",1
+"566","python3-dev: apt-get install -y python3-dev (deb),
+python3-pip: apt-get install -y python3-pip (deb), numpy: pip3
+install numpy (deb), scipy: pip3 install scipy (deb), nmslib:
+pip3 install --no-binary :all: nmslib (deb)",1
+"567","QuantLib library (>= 1.14) from
+http://quantlib.org, Boost library from http://www.boost.org",1
+"568","Quarto command line tools
+(https://github.com/quarto-dev/quarto-cli).",1
+"569","R built as a shared or static library, 'MPI'
+library.",1
+"570","RAPIDS cuML (see https://rapids.ai/start.html)",1
+"571","Requires the OpenMP library for parallel computing.
+If the OpenMP library is not available, the code is executed
+sequentially and a warning is printed.",1
+"572","roger-base (for interface functions only)",1
+"573","RStudio",2
+"574","RStudio - http://www.rstudio.com/products/rstudio/",2
+"575","Rtools (>= 3.3) for Windows, Xcode (>= 9.0) for Mac
+OS X",1
+"576","Ruby, Graphviz",1
+"577","Rust 'cargo'; the crate 'libR-sys' must compile
+without error",1
+"578","SAGA GIS (2.3 LTS - 7.0.0)",1
+"579","SAGA-GIS (>= 2.3.1)",1
+"580","SAS",1
+"581","Scala (>= 2.11), Java (>= 8)",1
+"582","sed, php, cat, perl",1
+"583","Spark (>= 2.2.x)",1
+"584","Spark: 1.6.x or 2.x",1
+"585","Spark: 1.6.x, 2.x, or 3.x",1
+"586","Spark: 2.x or above",1
+"587","ssh (OpenSSH) or plink (PuTTY) on Solaris, Linux,
+and Mac.",1
+"588","Subversion for install_svn, git for install_git",1
+"589","SVMlight",1
+"590","svn, git",1
+"591","SWMM (>=5.1.012)",1
+"592","SYMPHONY libraries and headers",1
+"593","synapseclient (pypi.org/project/synapseclient)",1
+"594","SyncroSim (>=2.2.22)",1
+"595","systemd, python3-dbus, python3-(gobject|gi),
+python3-(dnf|apt)",1
+"596","Tcl/Tk (>= 8.5), Tktable (>= 2.9, optional)",2
+"597","Tcl/Tk (>= 8.5), Tktable (>= 2.9)",2
+"598","Tcl/Tk (>= 8.6)",1
+"599","Tcl/Tk package BWidget.",3
+"600","Tcl/Tk package TkTable.",2
+"601","Tcl/Tk toolkit (X11 Quarts for Mac)",3
+"602","TensorFlow (https://www.tensorflow.org), Keras
+(https://keras.io), TensorFlow Probability
+(https://www.tensorflow.org/probability)",1
+"603","TensorFlow (https://www.tensorflow.org/)",5
+"604","TensorFlow (https://www.tensorflow.org/),
+TensorFlow Probability
+(https://www.tensorflow.org/probability/)",1
+"605","TensorFlow >= 1.13.0 (https://www.tensorflow.org/)
+and TensorFlow IO >= 0.4.0 (https://github.com/tensorflow/io)",1
+"606","TensorFlow >= 1.4 (https://www.tensorflow.org/)",1
+"607","TensorFlow >= 2.0 (https://www.tensorflow.org/)",3
+"608","TensorFlow Probability
+(https://www.tensorflow.org/probability)",1
+"609","Tesseract >= 3.03 (libtesseract-dev /
+tesseract-devel) and Leptonica (libleptonica-dev /
+leptonica-devel). On Debian you need to install the English
+training data separately (tesseract-ocr-eng)",1
+"610","The 'Japanese.Rnw' vignette requires uplatex and
+dvipdfmx.",1
+"611","The Boost 'program_options' library
+<https://boost.org> is required.",1
+"612","The exact (anti)clustering algorithms require that
+the GNU linear programming kit (GLPK library) is installed
+(<http://www.gnu.org/software/glpk/>). Rendering the vignette
+requires pandoc.",1
+"613","The function render() requires Pandoc
+(http://pandoc.org).",1
+"614","The package depends on libraries from the RRD
+project <http://oss.oetiker.ch/rrdtool/>. On Debian-based
+systems, install 'librrd-dev', on CentOS based systems install
+'rrdtool-devel', and on Fedora-based systems install
+'rrdtool-devel'
+<https://apps.fedoraproject.org/packages/rrdtool-devel>. For
+more information, see the README.",1
+"615","The SequenomMarkers() marker design function
+requires 'vcftools' and 'Perl' on 'windows', and, in addition,
+'awk' and 'bash' on '*nix'.",1
+"616","The standalone program xgobi must be installed
+additionally, see file README, or INSTALL.windows under Windows",1
+"617","The tools to run 'R CMD SHLIB' on 'Fortran' code.
+The used 'Fortran' compiler must support pointer initialization
+which is a feature of the 2008 standard. The compiler from
+Oracle Developer Studio 12.6 on Solaris 10 currently does not
+meet this requirement.",1
+"618","tiff and jpeg libraries",1
+"619","tiff fftw libcurl openssl",2
+"620","To use image and spec-compilation functions, i.e.
+suggests: nodejs (> 8), and for MacOS: X11",1
+"621","To use the Localhost of OSRM, you need to build
+OSRM
+<https://github.com/Project-OSRM/osrm-backend/wiki/Building-OSRM>
+locally",1
+"622","Ubuntu: at least apt-get and apt-cache.",1
+"623","udunits-2",2
+"624","under Linux, fftwtools needs libfftw3-dev",1
+"625","update: apt-get -y update (deb)",1
+"626","V8 <= 3.15: libv8-3.14-dev (deb), v8-314-devel
+(rpm), v8-3.14 (arch), v8@3.15 (homebrew)",1
+"627","V8 engine version 6+ is needed for modern JS and
+WASM support. On Debian / Ubuntu install either libv8-dev or
+libnode-dev, on Fedora use v8-devel. The readme has
+instructions for installing backports on Ubuntu Xenial and
+Bionic. It is still possible to build this package against the
+legacy libv8 version 3.14 branch, but these engines only
+support traditional JavaScript (ES5).",1
+"628","Vagrant <https://www.vagrantup.com>",1
+"629","valection (>= 1.0.0)",1
+"630","vault",1
+"631","virtuoso-opensource (Linux). For Mac & Windows,
+this package can automate Virtuoso installation.",1
+"632","WhiteboxTools
+(https://github.com/jblindsay/whitebox-tools/releases/latest)",1
+"633","Windows or X11",1
+"634","Windows, Linux, OS X",1
+"635","xclip (https://github.com/astrand/xclip) or xsel
+(http://www.vergenet.net/~conrad/software/xsel/) for accessing
+the X11 clipboard",2
+"636","xclip (Linux)",1
+"637","XPDF
+(4.2.0)(https://www.xpdfreader.com/download.html)",1
+"638","XPDF (http://www.foolabs.com/xpdf/download.html)",1
+"639","XQuartz (on MacOS)",1
+"640","XQuartz (on OSX)",1
+"641","zenity, yad",1
+"642","ZeroMQ >= 3.0.0: libzmq3-dev (deb) or zeromq-devel
+(rpm)",1
+"643","zip",1
+"644","zlib",1
+"645","zlib headers and library",1
+"646","zlib headers and library.",3
+"647","zlib, C++14",1
+"648","zlib, libpng, FreeType",3
