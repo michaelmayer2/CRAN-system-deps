@@ -5,9 +5,12 @@
 # There is an option to extend this and also include SystemRequirements 
 # It turns out however that most CRAN mirrors do not include any of the 
 # non-default fields of DESCRIPTION in the repository DB (e.g. PACKAGES)
-# The below code allows to temporarily download CRAN packages, create a 
-# local repository with SystemDependencies enabled and then run some 
-# operations on the same.
+# 
+# Package Manager to the rescue: 
+#    RSPM maintains all fields in DESCRIPTION
+#
+# The below code is interrogating RSPM for SystemDependencies 
+# and then runs some operations on the data.
 # ultimate product is
 # 1) a csv file containing packages and their versions with a documented 
 #        system dependency
@@ -30,9 +33,11 @@ system("find src/contrib/ -type l | xargs rm -f")
 tools::write_PACKAGES(dir="src/contrib",type="source",
                       fields=c("SystemRequirements"))
 
+
+# Make sure we use local CRAN
 r <- getOption("repos")
 r["CRAN"] <- paste0("file://",getwd())
-
+r["CRAN"] <- "https://packagemanager.rstudio.com/cran/latest"
 options(repos = r)
 
 # get data frame of everything 
