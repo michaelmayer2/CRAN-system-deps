@@ -16,27 +16,8 @@
 #        system dependency
 # 2) a csv file with the frequency of each system dependency
 
-# mkdir src
-system("mkdir -p src")
-
-# rsync everything
-system(paste("rsync --exclude [0-9].[0-9].[0-9]/ --exclude Meta/",
-                "--exclude Older/ --exclude */Recommended",
-                "--exclude Archive/ --exclude Symlink/ --exclude Old/",
-                "-rtlzv --delete",
-                "cran.r-project.org::CRAN/src/contrib src"))
-
-# filter out all the symlinks we don't need
-system("find src/contrib/ -type l | xargs rm -f")
-
-# write new packages DB with SystemRequirements field
-tools::write_PACKAGES(dir="src/contrib",type="source",
-                      fields=c("SystemRequirements"))
-
-
-# Make sure we use local CRAN
+# Make sure we use RSPM
 r <- getOption("repos")
-r["CRAN"] <- paste0("file://",getwd())
 r["CRAN"] <- "https://packagemanager.rstudio.com/cran/latest"
 options(repos = r)
 
